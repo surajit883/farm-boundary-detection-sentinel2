@@ -4,27 +4,26 @@ This project aims to detect farm boundaries from Sentinel-2 satellite imagery an
 ## Project Structure
 
 ```bash
-project/
-│
-├── data/                       # Contains input data and images
-│   ├── AOI/                    # Area of Interest (AOI) data
-│   └── chunk/                  # Chunks of data
-│       ├── train_imgs/         # Training images
-│       ├── mask_imgs/          # Mask images for training
-│       └── test_imgs/          # Test images
-│
-├── output/                     # Output results
-│   ├── predict/                # Model predictions
-│   ├── model/                  # Saved model files
-│   └── ndvi/                   # NDVI data or results
-│
-├── src/                        # Source code
-│   ├── model_test_v2.py        # Script for testing model
-│   ├── ndvi_downloader.py      # NDVI downloader from Sentinel-2
-│   ├── train_v2.ipynb          # Jupyter notebook for training the model
-│   └── unet_v2.py              # U-Net model for farm boundary detection
-│
-└── env/                        # Environment configuration
+📂 farm-boundary-detection-sentinel2
+├── 📂 data
+│   ├── 📂 AOI                  # Area of Interest (shapefiles, geojson, etc.)
+│   └── 📂 chunk                # Chunk-related data for processing
+│       ├── 📂 mask_imgs        # Mask images for chunking
+│       ├── 📂 train_imgs       # Training images for the model
+│       └── 📂 test_imgs        # Test images for model evaluation
+├── 📂 output                   # Output data and results
+│   ├── 📂 ndvi                 # NDVI pipeline results (e.g., .tif files)
+│   ├── 📂 model                # Trained model files (e.g., U-Net weights)
+│   └── 📂 predict              # Prediction outputs
+├── 📂 src                      # Source code for the project
+│   ├── 📂 __init__.py
+│   ├── 📂 model_test_v2.py      # Model testing script (Evaluate U-Net model)
+│   ├── 📂 ndvi_downloader.py    # Script for downloading NDVI data
+│   ├── 📂 train_v2.ipynb        # Jupyter notebook for model training
+│   ├── 📂 unet_v2.py            # U-Net model implementation in PyTorch
+│   ├── 📂 unet-v2.ipynb          # Full script wtih model create ,train and test and output
+├── 📂 requirements.txt         # List of Python dependencies
+└── README.md                # Environment configuration
 
 Installation
 Prerequisites
