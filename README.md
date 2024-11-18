@@ -85,6 +85,9 @@ Model Architecture
 This project uses the U-Net architecture for semantic segmentation of farm boundaries. U-Net is a convolutional network designed for fast and precise segmentation, especially in cases where the dataset is small.
 Input: Sentinel-2 imagery with vegetation information.
 Output: Farm boundary mask.
+
+After running ndvi downloader scritp output will store in output/ndvi/
+
 ## U-Net Model
 The U-Net model is defined in unet_v2.py. It consists of an encoder-decoder architecture with skip connections, making it suitable for image segmentation tasks.
 
@@ -103,6 +106,6 @@ unet_v2.py: U-Net model architecture for farm boundary detection.
 train_v2.ipynb: Jupyter notebook for model training.
 model_test_v2.py: Script to test and evaluate the trained model.
 ## Example Output
-After running the model, the predicted farm boundaries are stored in output/predict/, and NDVI data is stored in output/ndvi/.
+After running the model, the predicted farm boundaries are stored in output/predict/.
 
 
