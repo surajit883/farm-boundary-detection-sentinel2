@@ -60,7 +60,6 @@ Matplotlib, Seaborn for visualization
 Setup and Usage
 ## 1. Download Sentinel-2 NDVI Data
 
-
 Run the ndvi_downloader.py
  script to download Sentinel-2 data for your Area of Interest (AOI).
 bash
@@ -86,5 +85,14 @@ Model Architecture
 This project uses the U-Net architecture for semantic segmentation of farm boundaries. U-Net is a convolutional network designed for fast and precise segmentation, especially in cases where the dataset is small.
 Input: Sentinel-2 imagery with vegetation information.
 Output: Farm boundary mask.
+## U-Net Model
+The U-Net model is defined in unet_v2.py. It consists of an encoder-decoder architecture with skip connections, making it suitable for image segmentation tasks.
+
+## Model Architecture
+This project uses the U-Net architecture for semantic segmentation of farm boundaries. U-Net is a convolutional network designed for fast and precise segmentation, especially in cases where the dataset is small.
+
+## Input: Sentinel-2 imagery with vegetation information(blue,green,red,nir).
+Output: Farm boundary mask.
+
 ## U-Net Model
 The U-Net model is defined in unet_v2.py. It consists of an encoder-decoder architecture with skip connections, making it suitable for image segmentation tasks.
