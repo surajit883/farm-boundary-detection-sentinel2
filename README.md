@@ -88,11 +88,8 @@ Output: Farm boundary mask.
 ## U-Net Model
 The U-Net model is defined in unet_v2.py. It consists of an encoder-decoder architecture with skip connections, making it suitable for image segmentation tasks.
 
-## Model Architecture
+#### Model Architecture
 This project uses the U-Net architecture for semantic segmentation of farm boundaries. U-Net is a convolutional network designed for fast and precise segmentation, especially in cases where the dataset is small.
 
-## Input: Sentinel-2 imagery with vegetation information(blue,green,red,nir).
+#### Input: Sentinel-2 imagery with vegetation information(blue,green,red,nir).
 Output: Farm boundary mask.
-
-## U-Net Model
-The U-Net model is defined in unet_v2.py. It consists of an encoder-decoder architecture with skip connections, making it suitable for image segmentation tasks.
