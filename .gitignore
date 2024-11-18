@@ -1,5 +1,5 @@
 # Ignore all .tif files
 *.tif
-
+*.xml
 # Ignore the env directory (Python environment)
 env/
