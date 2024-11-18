@@ -24,6 +24,7 @@ This project aims to detect farm boundaries from Sentinel-2 satellite imagery an
 │   ├── 📂 unet-v2.ipynb          # Full script wtih model create ,train and test and output
 ├── 📂 requirements.txt         # List of Python dependencies
 └── README.md                # Environment configuration
+```
 
 Installation
 Prerequisites
