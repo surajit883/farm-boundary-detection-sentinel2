@@ -36,19 +36,19 @@ To install the required dependencies, create a virtual environment and install t
 
 ```bash
 python3 -m venv env
-
+```
 # Activate the environment (Linux/macOS)
 ```bash
 source env/bin/activate
-
+```
 # Activate the environment (Windows)
 ```bash
 env\Scripts\activate
-
+```
 # Install the required dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### Required Libraries
 TensorFlow / Keras for deep learning model training
@@ -66,7 +66,7 @@ bash
 
 ```bash
 python src/ndvi_downloader.py --aoi <path_to_aoi> --output <path_to_save_data>
-
+```
 ## 2. Prepare Training Data
 Make sure that your training data (images and masks) are placed in the appropriate directories under data/chunk/train_imgs/ and data/chunk/mask_imgs/.
 ## 3. Train U-Net Model
@@ -77,7 +77,7 @@ bash
 
 ```bash
 python src/model_test_v2.py --model <path_to_model> --test_imgs <path_to_test_images>
-
+```
 This will output predictions in the output/predict/ folder.
 ## 5. NDVI Analysis
 NDVI results are stored in the output/ndvi/ folder. You can use this data for further vegetation analysis.
