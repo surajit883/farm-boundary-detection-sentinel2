@@ -32,16 +32,16 @@ TensorFlow / Keras for deep learning model
 Other dependencies as listed in the requirements.txt file
 To install the required dependencies, create a virtual environment and install the necessary packages:
 
-# Create a virtual environment
+### Create a virtual environment
 
 ```bash
 python3 -m venv env
 ```
-# Activate the environment (Linux/macOS)
+### Activate the environment (Linux/macOS)
 ```bash
 source env/bin/activate
 ```
-# Activate the environment (Windows)
+### Activate the environment (Windows)
 ```bash
 env\Scripts\activate
 ```
