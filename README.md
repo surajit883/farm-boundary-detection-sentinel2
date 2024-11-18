@@ -93,3 +93,16 @@ This project uses the U-Net architecture for semantic segmentation of farm bound
 
 #### Input: Sentinel-2 imagery with vegetation information(blue,green,red,nir).
 Output: Farm boundary mask.
+
+## File Descriptions
+data/: Stores raw data, including training, testing images, and masks.
+output/: Stores results, including model predictions, NDVI results, and saved models.
+src/:
+ndvi_downloader.py: Script to download Sentinel-2 NDVI data.
+unet_v2.py: U-Net model architecture for farm boundary detection.
+train_v2.ipynb: Jupyter notebook for model training.
+model_test_v2.py: Script to test and evaluate the trained model.
+## Example Output
+After running the model, the predicted farm boundaries are stored in output/predict/, and NDVI data is stored in output/ndvi/.
+
+
