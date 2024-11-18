@@ -68,7 +68,7 @@ bash
 ```bash
 python src/ndvi_downloader.py --aoi <path_to_aoi> --output <path_to_save_data>
 ```
-## 2. Prepare Training Data
+## 2. Farm boundary segmetation 
 Make sure that your training data (images and masks) are placed in the appropriate directories under data/chunk/train_imgs/ and data/chunk/mask_imgs/.
 ## 3. Train U-Net Model
 The train_v2.ipynb Jupyter notebook contains the steps for training the U-Net model for farm boundary detection. You can open the notebook and run the cells to start training the model.
