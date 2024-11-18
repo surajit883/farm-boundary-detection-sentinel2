@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 17 20:12:57 2022
-
-@author: divyesh ranpariya
-"""
-
-
-
 
 import warnings
 warnings.filterwarnings("ignore")
