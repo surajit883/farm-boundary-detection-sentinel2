@@ -109,5 +109,7 @@ model_test_v2.py: Script to test and evaluate the trained model.
 After running the model, the predicted farm boundaries are stored in output/predict/.
 
 [Download the PDF with predicted images](./Detection%20Results_%20UNet%20Farm%20Boundary%20Segmentation.pdf)
+For more details and visualizations of all tested images, please refer to the [unet.ipynb](.src/unet.ipynb) script.
+
 
 
