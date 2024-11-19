@@ -111,7 +111,7 @@ After running the model, the predicted farm boundaries are stored in output/pred
 [Download the PDF with predicted images](./Detection%20Results_%20UNet%20Farm%20Boundary%20Segmentation.pdf)
 
 
-For more details and visualizations of all tested images, please refer to the [unet.ipynb](src/unet.ipynb) script.
+For more details and visualizations of all tested images, please refer to the [unet.ipynb](src/unet-v2.ipynb) script.
 
 
 
