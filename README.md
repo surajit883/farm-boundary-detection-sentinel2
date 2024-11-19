@@ -108,7 +108,6 @@ model_test_v2.py: Script to test and evaluate the trained model.
 ## Example Output
 After running the model, the predicted farm boundaries are stored in output/predict/.
 
-Download the PDF with predicted images (Detection Results_ UNet Farm Boundary Segmentation.pdf)
 [Download the PDF with predicted images](./Detection%20Results_%20UNet%20Farm%20Boundary%20Segmentation.pdf)
 
 
