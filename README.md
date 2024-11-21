@@ -6,7 +6,7 @@ This project aims to detect farm boundaries from Sentinel-2 satellite imagery an
 ```bash
 📂 farm-boundary-detection-sentinel2
 ├── 📂 data
-│   ├── 📂 AOI                  # Area of Interest (shapefiles, geojson, etc.)
+│   ├── 📂 AOI                  # Area of Interest for NDVI downloader (shapefiles, geojson, etc.)
 │   └── 📂 chunk                # Chunk-related data for processing
 │       ├── 📂 mask_imgs        # Mask images for chunking
 │       ├── 📂 train_imgs       # Training images for the model
